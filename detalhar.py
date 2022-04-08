@@ -79,11 +79,11 @@ def detalhar_horario(h):
                 elif teste[2][i] == '6':
                     teste[2][i] = 'Sexto horario: 12h'
 
-        view = f'''\nHorario: 
+        view = f'''\n ===>  : 
 
-            Dia: {' - '.join(teste[0])}
-            Turno: {''.join(teste[1])}
-            Hora: {' - '.join(teste[2])}
+            \t\t\t  Dia: {' - '.join(teste[0])}
+            \t\t\t  Turno: {''.join(teste[1])}
+            \t\t\t  Hora: {' - '.join(teste[2])}
 
                 '''
         print(view)
