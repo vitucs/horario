@@ -83,7 +83,7 @@ def detalhar_horario(h):
 
             \t\t\t  Dia: [ {' - '.join(teste[0])} ]
             \t\t\t  Turno: [ {''.join(teste[1])} ]
-            \t\t\t  Hora:[ {' - '.join(teste[2])} ]
+            \t\t\t  Hora: [ {' - '.join(teste[2])} ]
 
                 '''
         print(view)
